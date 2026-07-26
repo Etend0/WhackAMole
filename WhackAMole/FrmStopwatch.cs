@@ -37,7 +37,7 @@ namespace WhackAMole
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void BtnStartClick(object sender, EventArgs e)
+        private void BtnStartClickEH(object sender, EventArgs e)
         {
             // Start the stopwatch
             tmrStopwatch.Start();
@@ -49,7 +49,7 @@ namespace WhackAMole
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void BtnStopClick(object sender, EventArgs e)
+        private void BtnStopClickEH(object sender, EventArgs e)
         {
             // Stop the stopwatch
             tmrStopwatch.Stop();
